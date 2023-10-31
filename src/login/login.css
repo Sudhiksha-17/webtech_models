@@ -1,0 +1,99 @@
+/* src/components/Login/Login.css */
+.login-container {
+  max-width: 50%; /* Increase the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 30px; /* Increase padding for more space */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add styles for the Google logo */
+.google-logo {
+  width: 100px; /* Adjust the size as needed */
+  display: block; /* Make it a block-level element */
+}
+
+p {
+  font-weight: bold;
+}
+
+/* Add styles for the username logo */
+.username-logo {
+  width: 80px; /* Adjust the size as needed */
+  display: block; /* Make it a block-level element */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* src/components/Login/Login.css */
+/* ... (other styles) */
+
+.forgot-link {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer;
+}
+
+.forgot-link:hover {
+  text-decoration: underline; /* Underline when hovered */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+  margin-right: 15px; /* Adjust the margin for spacing */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
